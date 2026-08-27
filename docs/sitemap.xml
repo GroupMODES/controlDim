@@ -8,10 +8,11 @@
 <url><loc>https://modes-cemi.github.io/dimControl/reference/angleBetween.html</loc></url>
 <url><loc>https://modes-cemi.github.io/dimControl/reference/angleFromAxis.html</loc></url>
 <url><loc>https://modes-cemi.github.io/dimControl/reference/angleFromVectors.html</loc></url>
-<url><loc>https://modes-cemi.github.io/dimControl/reference/binningMarchingCubes.html</loc></url>
 <url><loc>https://modes-cemi.github.io/dimControl/reference/boundingBox.html</loc></url>
 <url><loc>https://modes-cemi.github.io/dimControl/reference/cad.html</loc></url>
 <url><loc>https://modes-cemi.github.io/dimControl/reference/cleanBoundarySegments.html</loc></url>
+<url><loc>https://modes-cemi.github.io/dimControl/reference/createMesh.html</loc></url>
+<url><loc>https://modes-cemi.github.io/dimControl/reference/dimControl-package.html</loc></url>
 <url><loc>https://modes-cemi.github.io/dimControl/reference/euclideanDistance.html</loc></url>
 <url><loc>https://modes-cemi.github.io/dimControl/reference/filterMeshComponents.html</loc></url>
 <url><loc>https://modes-cemi.github.io/dimControl/reference/findModes.html</loc></url>
@@ -20,11 +21,12 @@
 <url><loc>https://modes-cemi.github.io/dimControl/reference/index.html</loc></url>
 <url><loc>https://modes-cemi.github.io/dimControl/reference/meshNormals.html</loc></url>
 <url><loc>https://modes-cemi.github.io/dimControl/reference/pan3d.html</loc></url>
-<url><loc>https://modes-cemi.github.io/dimControl/reference/panelPoints.html</loc></url>
+<url><loc>https://modes-cemi.github.io/dimControl/reference/preparePanelMesh.html</loc></url>
 <url><loc>https://modes-cemi.github.io/dimControl/reference/rad2deg.html</loc></url>
 <url><loc>https://modes-cemi.github.io/dimControl/reference/sampleMesh.html</loc></url>
 <url><loc>https://modes-cemi.github.io/dimControl/reference/setView3d.html</loc></url>
 <url><loc>https://modes-cemi.github.io/dimControl/reference/sideBulb.html</loc></url>
+<url><loc>https://modes-cemi.github.io/dimControl/reference/simulatePanelFloorCloud.html</loc></url>
 <url><loc>https://modes-cemi.github.io/dimControl/reference/sortSegments.html</loc></url>
 <url><loc>https://modes-cemi.github.io/dimControl/reference/splitTrianglesInd.html</loc></url>
 <url><loc>https://modes-cemi.github.io/dimControl/reference/surfaceDistance.html</loc></url>

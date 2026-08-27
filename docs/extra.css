@@ -1,0 +1,34 @@
+h1 {
+  color: #2c7fb8;
+}
+
+h2 {
+  color: #2c7fb8;
+}
+
+/* Barra superior */
+.navbar {
+  background-color: #2c7fb8 !important;
+}
+
+/* Nombre del paquete */
+.navbar-brand {
+  color: white !important;
+}
+
+/* Enlaces del menú superior */
+.navbar-nav .nav-link {
+  color: white !important;
+}
+
+/* Página activa */
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  background-color: #21618c !important;
+  color: white !important;
+}
+
+/* Iconos y enlaces de la barra */
+.navbar a {
+  color: white !important;
+}

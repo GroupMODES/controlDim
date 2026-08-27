@@ -1,6 +1,6 @@
 Package: dimControl
-Title: Dimensional Control Tools for Steel Panels
-Version: 0.1.0
+Title: Tools for Geometric Processing and Dimensional Analysis
+Version: 0.1.1
 Authors@R: c(
       person("Nataly", "Romaris", , "nataly.romaris@udc.es", role = c("aut", "cre")),
       person("Olamar", "Benavente", role = "aut"),
@@ -9,27 +9,32 @@ Authors@R: c(
       person("Javier", "Tarrio-Saavedra", role = "aut")
       )
 Maintainer: Nataly Romaris <nataly.romaris@udc.es>
-Description: R package developed by the MODES group for the dimensional control of 
-    steel panels in naval construction. It provides tools for geometric processing, bounding 
-    box computation, panel border extraction, directional angle estimation, detection 
-    of disconnected components, and other functions to support analysis and scientific publications.
-License: MIT + file LICENSE
-Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2
+Description: A collection of tools for geometric processing, reconstruction, and
+    dimensional analysis of three-dimensional data. It includes functionality for 
+    point cloud and mesh processing, boundary extraction, angle estimation, component 
+    detection, and surface analysis.
+Depends: 
+    R (>= 3.5),
+    graphics
 Imports:
     data.table,
+    rgl,
     Rvcg,
     igraph,
-    matrixStats,
     misc3d,
     npsp,
     FNN,
-    stats,
-    rgl
+    stats
+Suggests:
+    knitr
+License: GPL (>= 2)
 URL: https://github.com/modes-cemi/dimControl,
      https://modes-cemi.github.io/dimControl/
 BugReports: https://github.com/modes-cemi/dimControl/issues
-Depends: 
-    R (>= 3.5)
-LazyData: false
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+LazyData: true
+LazyDataCompression: xz
+
+

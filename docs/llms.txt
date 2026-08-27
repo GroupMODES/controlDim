@@ -112,14 +112,14 @@ Coruña.
   : Directional Angle from an Axis
 - [`angleFromVectors()`](https://modes-cemi.github.io/dimControl/reference/angleFromVectors.md)
   : Angles Between Vectors and Reference Vectors
-- [`binningMarchingCubes()`](https://modes-cemi.github.io/dimControl/reference/binningMarchingCubes.md)
-  : Generate a Triangular Mesh Using Binning and Marching Cubes
 - [`boundingBox()`](https://modes-cemi.github.io/dimControl/reference/boundingBox.md)
   : Compute the Spatial Bounds (Bounding Box) of a 3D Mesh
 - [`cad`](https://modes-cemi.github.io/dimControl/reference/cad.md) :
-  CAD object of a steel panel
+  CAD Object of a Steel Panel
 - [`cleanBoundarySegments()`](https://modes-cemi.github.io/dimControl/reference/cleanBoundarySegments.md)
   : Clean and Reconnect Boundary Segments of a 3D Mesh
+- [`createMesh()`](https://modes-cemi.github.io/dimControl/reference/createMesh.md)
+  : Reconstruct a Triangular Mesh from a 3D Point Cloud
 - [`euclideanDistance()`](https://modes-cemi.github.io/dimControl/reference/euclideanDistance.md)
   : Compute the Euclidean Distance Between Two Points
 - [`filterMeshComponents()`](https://modes-cemi.github.io/dimControl/reference/filterMeshComponents.md)
@@ -134,8 +134,8 @@ Coruña.
   : Compute face normals of a triangular mesh
 - [`pan3d()`](https://modes-cemi.github.io/dimControl/reference/pan3d.md)
   : Interactive 3D View Panning
-- [`panelPoints`](https://modes-cemi.github.io/dimControl/reference/panelPoints.md)
-  : Simulated point cloud of a steel panel
+- [`preparePanelMesh()`](https://modes-cemi.github.io/dimControl/reference/preparePanelMesh.md)
+  : Prepare a Theoretical Panel Mesh for Point Cloud Simulation
 - [`rad2deg()`](https://modes-cemi.github.io/dimControl/reference/rad2deg.md)
   : Conversion from Radians to Degrees
 - [`sampleMesh()`](https://modes-cemi.github.io/dimControl/reference/sampleMesh.md)
@@ -144,6 +144,8 @@ Coruña.
   : Set a 3D View
 - [`sideBulb()`](https://modes-cemi.github.io/dimControl/reference/sideBulb.md)
   : Determine the Orientation of a Reinforcement Bulb
+- [`simulatePanelFloorCloud()`](https://modes-cemi.github.io/dimControl/reference/simulatePanelFloorCloud.md)
+  : Simulate a Steel Panel and Floor Point Cloud
 - [`sortSegments()`](https://modes-cemi.github.io/dimControl/reference/sortSegments.md)
   : Reorder Connected Edge Segments
 - [`splitTrianglesInd()`](https://modes-cemi.github.io/dimControl/reference/splitTrianglesInd.md)

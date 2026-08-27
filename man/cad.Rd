@@ -3,19 +3,23 @@
 \docType{data}
 \name{cad}
 \alias{cad}
-\title{CAD object of a steel panel}
+\title{CAD Object of a Steel Panel}
 \format{
-A \code{mesh3d} object (list) with 3 main components:
+A \code{mesh3d} object (list) with three main components:
 \describe{
-\item{vb}{matrix 4 x 267 with vertex coordinates (homogeneous)}
-\item{it}{matrix 3 x 343 with triangle indices}
-\item{normals}{matrix 4 x 267 with vertex normals}
+\item{vb}{A 4 x 267 matrix containing vertex coordinates in homogeneous form.}
+\item{it}{A 3 x 343 matrix containing triangle indices.}
+\item{normals}{A 4 x 267 matrix containing vertex normals.}
 }
 }
 \source{
-Theoretical CAD model of a steel panel
+Theoretical CAD model of a steel panel.
+}
+\usage{
+cad
 }
 \description{
-This object corresponds to a portion of the theoretical CAD model of a steel panel,
-stored as a \code{mesh3d} object.
+This object corresponds to a portion of the theoretical CAD model of a steel
+panel, stored as a \code{mesh3d} object.
 }
+\keyword{datasets}

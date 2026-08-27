@@ -1,9 +1,61 @@
 url: https://modes-cemi.github.io/dimControl/
 
 template:
-  bootstrap: 5
   mathjax: true
 
+reference:
 
+- title: "Segmentation and Classification"
+  desc: >
+    Functions for segmentation, classification and identification of
+    geometric components in 3D data.
+  contents:
+  - findModes
+  - sideBulb
+  - splitTrianglesInd
+  - filterMeshComponents
+
+- title: "Mesh Reconstruction and Processing"
+  desc: >
+    Functions for reconstructing and processing triangular meshes.
+  contents:
+  - createMesh
+  - getBoundarySegments
+  - cleanBoundarySegments
+  - sortSegments
+  - boundingBox
+  - meshNormals
+  - addNormals
+
+- title: "Measurement and Comparison"
+  desc: >
+    Functions for geometric measurements, distances and angular
+    comparisons.
+  contents:
+  - euclideanDistance
+  - surfaceDistance
+  - angleBetween
+  - angleFromAxis
+  - angleFromVectors
+
+- title: "Simulation and Data"
+  desc: >
+    Functions and data used to prepare theoretical geometries and generate
+    simulated 3D point clouds.
+  contents:
+  - cad
+  - preparePanelMesh
+  - simulatePanelFloorCloud
+  - sampleMesh
+
+- title: "Utilities"
+  desc: >
+    Auxiliary functions used throughout the geometric processing workflow.
+  contents:
+  - rad2deg
+  - xprod
+  - getView3d
+  - setView3d
+  - pan3d
 
 
