@@ -99,7 +99,6 @@
 #' }
 #'
 #' @importFrom npsp binning coordvalues
-#' @importFrom misc3d contour3d
 #' @importFrom rgl tmesh3d
 #' @importFrom utils capture.output getFromNamespace
 #'
