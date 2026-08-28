@@ -1,10 +1,3 @@
-.onLoad <- function(libname, pkgname) {
-  if (identical(Sys.getenv("DISPLAY"), "") &&
-      .Platform$OS.type != "windows") {
-    options(rgl.useNULL = TRUE)
-  }
-}
-
 .onAttach <- function(libname, pkgname) {
   version <- utils::packageVersion(pkgname)
 
